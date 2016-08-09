@@ -1,0 +1,89 @@
+table.eg0, th.eg0, td.eg0, td.temp {
+  border: 1px solid black;
+  }
+
+table.eg0 {
+	border-collapse: collapse;
+}
+
+th.eg0, td.eg0, td.temp{
+	padding: 10px;
+}
+
+thead.eg0, tfoot.eg0 {
+	background-color: antiquewhite;
+}
+
+tbody.eg0 {
+	background-color: floralwhite;
+}
+
+tr.eg0:nth-child(even) {background-color: blanchedalmond;}
+
+td.temp {
+	text-align: center;
+}
+
+table.eg1, th.eg1, td.eg1 {
+	border: 1px solid black;
+}
+
+table.eg1 {
+	border-collapse: collapse;
+}
+
+th.eg1, td.eg1 {
+	padding: 10px;
+}
+
+
+table.eg2, td.eg2, th.eg2 {
+	border-collapse: collapse;
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+th.eg2 {
+	background-color: darkgrey;
+}
+td.eg2 {
+	background-color: lightgrey;
+}
+
+table.eg3 >thead {
+	background-color: darkblue;
+}
+
+table.eg3 {
+	text-align: center;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+table.eg3 >tbody{
+	background-color: #57cfd2;
+}
+
+tr.eg3:nth-child(odd) {
+	background-color: #bee7f2;
+}
+
+thead.eg3 {
+	border-bottom: 5px solid white;
+	line-height: 45px;
+}
+
+th.eg3 {
+	border-right: 1px solid white;
+}
+
+tr.eg3 >td {
+	border-bottom: 2px solid white;
+	border-right: 1px solid white;
+	line-height: 30px;
+
+}
+
+tr.eg3:hover {background-color: yellow;}
+
